@@ -6,6 +6,8 @@
 // [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would
 // be [2, 3, 6].
 
-const products = array => array;
+const products = array => {
+  // your code goes here
+};
 
 module.exports = products;

@@ -18,6 +18,7 @@
   "homepage": "https://github.com/leandroviajando/product-algo#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "gulp": "^4.0.2",
     "mocha": "^6.1.4"
   },
   "devDependencies": {
