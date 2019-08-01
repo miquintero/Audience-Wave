@@ -1,4 +1,4 @@
-# Algo Rithms Challenge
+# Algo Rithms Challenge // Audience Wave
 
 - [1. Getting started](#1-getting-started)
 - [2. Challenge](#2-challenge)
@@ -7,16 +7,23 @@
   - [2.3. Submitting your solution](#23-submitting-your-solution)
 
 ## 1. Getting started
-  `https://github.com/leandroviajando/product-algo`
+  `https://github.com/Coralie19/Audience-Wave`
 
 Fork this repo and then `git clone` your forked repo to your computer.
 Once you're happy with your solution, `git push` and submit a pull request at
-`https://github.com/leandroviajando/product-algo`.
+`https://github.com/Coralie19/Audience-Wave`.
 
 ## 2. Challenge
-Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+The Audience Wave is an example of metachronal rhythm achieved in a packed stadium when successive groups of spectators briefly stand, yell, and raise their arms. Immediately upon stretching to full height, the spectator returns to the usual seated position.
 
-For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+Your task is to create a function that turns a string into an Audience Wave. You will be passed a string and you must return that string in an array where an uppercase letter is a person standing up.
+
+The input string will always be lower case but maybe empty.
+If the character in the string is whitespace then pass over it as if it was an empty seat.
+
+```js
+wave("hello") // returns ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+```
 
 ### 2.2. Testing your solution
 To test your solution, run `npm i` in the root directory and then run `npm t` to run the automated tests.
