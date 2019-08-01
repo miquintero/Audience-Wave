@@ -4,11 +4,10 @@ const products = require('./index.js');
 
 const tests = [
   // test case           solution               description
-  [ [1, 2, 3, 4, 5],    [120, 60, 40, 30, 24], 'should work for arrays of positive integers' ],
-  [ [0, 1, 2, 3, 4, 5], [120, 0, 0, 0, 0, 0],  'should work with a zero in the array' ],
-  [ [],                 [],                    'should work for an empty array' ],
-  [ [-3, 2, -1],        [-2, 3, -6],           'should work with negative integers' ],
-  [ [0, 0],             [0, 0],                'should work for an array of zeros' ]
+
+  [ "hello",       ['Hello', 'hEllo', 'heLlo', 'helLo', 'hellO'], 'should work for any string in lower-case' ],
+  [ "hello world", ['Hello world', 'hEllo world', 'heLlo world', 'helLo world', 'hellO world', 'hello World', 'hello wOrld', 'hello woRld', 'hello worLd', 'hello worlD'],  'should pass over a whitespace' ],
+
 ];
 
 describe('Tests', () => tests.map(testCase =>

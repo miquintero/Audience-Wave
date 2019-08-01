@@ -1,13 +1,19 @@
-// Given an array of integers, return a new array such that each element at
-// index i of the new array is the product of all the numbers in the original
-// array except the one at i.
+// The Audience Wave is an example of metachronal rhythm achieved in a packed stadium when 
+// successive groups of spectators briefly stand, yell, and raise their arms. Immediately 
+// upon stretching to full height, the spectator returns to the usual seated position.
 
-// For example, if our input was [1, 2, 3, 4, 5], the expected output would be
-// [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would
-// be [2, 3, 6].
+// Your task is to create a function that turns a string into an Audience Wave. You will be 
+// passed a string and you must return that string in an array where an uppercase letter is 
+// a person standing up.
 
-const products = array => {
+// The input string will always be lower case but maybe empty.
+// If the character in the string is whitespace then pass over it as if it was an empty seat.
+
+// For example, if your input is "hello", the expected output would be:
+// ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
+
+const wave = w => {
   // your code goes here
 };
 
-module.exports = products;
+module.exports = wave;
