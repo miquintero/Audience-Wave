@@ -21,6 +21,7 @@ Your task is to create a function that turns a string into an Audience Wave. You
 The input string will always be lower case but maybe empty.
 If the character in the string is whitespace then pass over it as if it was an empty seat.
 
+### 2.1. Examples
 ```js
 wave("hello") // returns ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 ```
